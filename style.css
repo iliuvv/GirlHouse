@@ -1,0 +1,605 @@
+@font-face {
+    font-family: 'Bold';
+    src: url(font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'SemiBold';
+    src: url(font/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url(font/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Medium';
+    src: url(font/Montserrat-Medium.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.wrapper {
+    width: 1720px;
+    margin: 0 auto;
+}
+
+/* -------- ГОЛОВА ----------*/
+.logo {
+    width: 140px;
+    height: 62px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 150px;
+    font-family: 'Bold';
+    font-size: 24px;
+    text-transform: uppercase
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.zapis {
+    color: black;
+    background: #FFBB36;
+    border-radius: 20px;
+    padding: 5px 50px 5px 50px;
+}
+
+header {
+    background: url("img/background_header.png");
+    background-size: cover;
+}
+
+.oblozhka {
+    display: flex;
+    justify-content: space-between;
+    height: 1280px;
+}
+
+.women {
+    width: 1251px;
+    margin-top: 50px;
+}
+
+.soc {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 300px;
+}
+
+.soc img {
+    width: 66px;
+    height: 66px;
+}
+
+.loz {
+    font-family: 'Bold';
+    font-size: 48px;
+    padding-top: 200px;
+    width: 661px;
+}
+
+.loz span {
+    color: black;
+    background: #FFBB36;
+    border-radius: 30px;
+    padding: 3px 20px 3px 20px;
+}
+
+
+h2 {
+    font-family: 'SemiBold';
+    font-size: 64px;
+    text-transform: uppercase
+}
+
+/* -------- РАЗДЕЛ УСЛУГИ ----------*/
+.services h2 {
+    text-align: center;
+}
+
+.services {
+    padding-top: 60px;
+}
+
+.service {
+    display: flex;
+    gap: 100px;
+    padding-top: 80px;
+    justify-content: center;
+}
+
+.service p {
+    font-family: 'Light';
+    font-size: 48px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.lash {
+    width: 487px;
+}
+
+/* -------- РАЗДЕЛ МАСТЕРА ----------*/
+.masters h2 {
+    text-align: center;
+}
+
+.masters {
+    padding-top: 60px;
+}
+
+.master {
+    display: flex;
+    gap: 100px;
+    padding-top: 80px;
+}
+
+.master p {
+    font-family: 'Light';
+    font-size: 48px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.master .mini {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.m {
+    justify-content: center
+}
+
+/* -------- РАЗДЕЛ ПРАЙС ----------*/
+.price {
+    background: url("img/background_header.png");
+    background-size: cover;
+    margin: 0 auto;
+    padding-top: 100px;
+    margin-top: 100px;
+    height: 1836px;
+
+}
+
+.pri {
+    background: url("img/Rectangle\ 7.png");
+    width: 1709px;
+    height: 1500px;
+    background-size: cover;
+}
+
+.pri h2 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.pri p {
+    font-family: 'Medium';
+    font-size: 48px;
+}
+
+.pri article {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px 35px 50px;
+
+}
+
+hr {
+    width: 1605px;
+    height: 1px;
+    background-color: #989898;
+    border: none;
+    margin-left: 50px;
+}
+
+.pri .podrobno {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+/* -------- РАЗДЕЛ ОТЗЫВЫ ----------*/
+.reviews {
+    padding-top: 60px;
+}
+
+.reviews h2 {
+    width: 918px;
+}
+
+.reviews h2 span {
+    color: #FFBB36;
+}
+
+.block {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 63px;
+}
+
+.mini_block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 19px;
+}
+
+.block p {
+    font-family: 'Light';
+    font-size: 40px;
+    width: 1400px;
+}
+
+.mini_block p {
+    font-family: 'Light';
+    font-size: 24px;
+    width: 178px;
+    text-align: center;
+    padding-left: 25px;
+}
+
+.strelki {
+    display: flex;
+    gap: 70px;
+}
+
+/* -------- РАЗДЕЛ О САЛОНЕ ----------*/
+.osalone {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_block h2 {
+    width: 443px;
+}
+
+.text_block p {
+    font-family: 'Light';
+    font-size: 40px;
+    width: 792px;
+    padding-top: 87px;
+}
+
+.loz2 {
+    font-family: 'Bold';
+    font-size: 32px;
+    padding-top: 45px;
+    width: 725px;
+}
+
+.loz2 span {
+    color: black;
+    background: #FFBB36;
+    border-radius: 30px;
+    padding: 3px 20px 3px 20px;
+}
+
+/* -------- РАЗДЕЛ КАРТЫ И ЗАПИСИ ОНЛАЙН ----------*/
+.karta_forma {
+    padding-top: 60px;
+    display: flex;
+    gap: 50px;
+}
+
+.karta {
+    background: url("img/karta.png");
+    width: 833px;
+    height: 745px;
+    background-size: cover;
+}
+
+.call,
+.email,
+.adres {
+    font-family: 'Medium';
+    display: flex;
+    padding-top: 18px;
+    padding-left: 30px;
+    gap: 15px;
+}
+
+.call img {
+    width: 27px;
+    height: 26px;
+}
+
+.email img {
+    width: 28px;
+    height: 24px;
+}
+
+.adres img {
+    width: 25px;
+    height: 29px;
+}
+
+.bold {
+    color: black;
+    padding-bottom: 17px;
+    font-weight: bold;
+}
+
+.karta p {
+    color: #333333;
+}
+
+.forma {
+    width: 826px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #989898;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    padding-bottom: 58px;
+    width: 826px;
+    font-family: 'Light';
+    font-size: 32px;
+    padding-top: 30px;
+}
+
+.forma h2 {
+    width: 520px;
+    padding-bottom: 58px;
+}
+
+.forma a {
+    color: black;
+    background: #FFBB36;
+    border-radius: 30px;
+    padding: 15px 100px 15px 100px;
+    font-family: 'SemiBold';
+    font-size: 32px;
+    text-transform: uppercase;
+
+}
+
+.forma p {
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+/* -------- ПОДВАЛ ----------*/
+.podval {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.soc_footer img {
+    width: 93.17px;
+    height: 93.17px;
+}
+
+.soc_footer {
+    display: flex;
+    gap: 50px;
+}
+
+@media screen and (max-width:1280px) {
+    .wrapper {
+        width: 1119px;
+    }
+    /* -------- ГОЛОВА ----------*/
+    .logo {
+        width: 242px;
+        height: 105px;
+    }
+    header {
+        height: 908px;
+    }
+    .menu {
+        align-items: center;
+
+    }
+    nav ul {
+        gap: 40px;
+        font-size: 20px;
+    }
+    .oblozhka{
+        width: 1119px;
+        gap: 10px;
+    }
+    .o {
+        width: 116px;
+    }
+    .women img {
+        width: 691px;
+        height: 766px;
+    }
+    .loz {
+        font-size: 36px;
+        width: 500px;
+    }
+    .soc img {
+        width: 47px;
+        height: 47px;
+    }
+    h2 {
+        font-size: 48px;
+    }
+
+    .soc {
+        padding-top: 50px;
+    }
+
+    /* -------- РАЗДЕЛ УСЛУГИ ----------*/
+
+    .service {
+        gap: 50px;
+    }
+
+    .service img {
+        width: 333px;
+        height: 401px;
+    }
+
+    .service p {
+        font-size: 36px;
+    }
+
+    .lash {
+        width: 407px;
+    }
+
+    /* -------- РАЗДЕЛ МАСТЕРА ----------*/
+
+    .masters img {
+        width: 333px;
+        height: 401px;
+    }
+
+    .master {
+        gap: 50px;
+    }
+
+    .master p {
+        font-family: 'Light';
+        font-size: 36px;
+    }
+    .lash{
+        margin-right: 50px;
+        width: 333px;
+
+    }
+    .ll{
+        width: 333px;
+        justify-content: center;
+    }
+
+    /* -------- РАЗДЕЛ ПРАЙС ----------*/
+    .price {
+        margin-top: 50px;
+        padding-top: 50px;
+        height: 1465px;
+    }
+
+    .pri {
+        height: 1166px;
+        width: 1112px;
+        background-size: cover;
+        background: url("img/Rectangle8.png");
+    }
+
+    .pri article{
+        padding: 20px 40px 25px 40px;
+    }
+
+    .pri p {
+        font-size: 36px;
+    }
+
+    hr {
+        width: 1040px;
+        margin-left: 40px;
+    }
+    /* -------- РАЗДЕЛ ОТЗЫВЫ ----------*/
+    .block p{
+        font-size: 24px;
+        width: 786px;
+
+    }
+    .mini_block p {
+        font-size: 16px;
+        width: 178px;
+    }
+    /* -------- РАЗДЕЛ О САЛОНЕ ----------*/
+    .text_block p {
+        font-size: 24px;
+        width: 530px;
+    }
+    .loz2 {
+        font-size: 32px;
+        padding-top: 45px;
+        width: 561px;
+        line-height: 45px;    
+    }
+    .loz2 span {
+        padding: 1px 10px 1px 10px;
+    }
+    .img_block img{
+        width: 523px;
+        height: 373px;
+    }
+    .osalone{
+        gap: 60px;    
+    }
+    /* -------- РАЗДЕЛ КАРТЫ И ЗАПИСИ ОНЛАЙН ----------*/
+    .karta {
+        width: 532px;
+        height: 490px;
+        background: url("img/karta1.png");
+
+    }
+
+    .call img {
+        width: 27px;
+        height: 26px;
+    }
+    
+    .email img {
+        width: 31px;
+        height: 29px;
+    }
+    .forma h2{
+        text-align: center;
+        padding-bottom: 28px;
+
+    }
+    .adres img {
+        width: 25px;
+        height: 29px;
+    }
+    .forma {
+        width: 531px;
+    }
+    input{
+        width: 531px;
+        padding-bottom: 23px;
+        font-size: 24px;
+
+    }
+    .forma a {
+        border-radius: 20px;
+        padding: 10px 50px 10px 50px;
+        font-family: 'SemiBold';
+        font-size: 20px;
+    
+    }
+    .forma p {
+        padding-left: 150px;
+    }
+    /* -------- ПОДВАЛ ----------*/
+    .soc_footer img {
+        width: 68px;
+        height: 68px;
+    }
+}
